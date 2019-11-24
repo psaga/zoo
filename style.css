@@ -1,0 +1,60 @@
+html, body {
+    height: 100%;
+}
+body {
+    font-family: 'Monserrat', sans-serif;
+}
+.principal {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.principal > textarea {
+    height: 100px;
+    padding: 10px;
+    font-size: 18px;
+    resize: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.principal > textarea, .animals-container > .card {
+    width: 600px;
+    max-width: 70%;
+    border: 1px solid rgba(0, 0, 0, 0.25) !important;
+    color: #313131;
+    font-family: 'Monserrat', sans-serif;
+}
+
+.animals-container {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card {
+    border-radius: 5px;
+    max-width: 70%;
+    display: flex;
+    margin: 5px 0px;
+}
+.emoji {
+    font-size: 50px !important;
+}
+.card > span {
+    font-size: 14px;
+    padding: 10px;
+}
+
+.btn-animals-speak {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-color: #FF9800;
+    background-color: #FF9800;
+    cursor: pointer;
+}
+.btn-animals-speak:focus {
+    outline: none;
+}
